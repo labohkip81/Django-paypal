@@ -128,3 +128,9 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 MEDIA_URL = '/media/'
+
+
+#paypal configurations.
+PAYPAL_RECEIVER_EMAIL = 'labankiplagat81@gmail.com'
+ 
+PAYPAL_TEST = True
