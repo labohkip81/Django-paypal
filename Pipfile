@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "==2.1.4"
+django = "*"
 Pillow = "==5.3.0"
 pytz = "==2018.7"
 django-paypal = "*"
