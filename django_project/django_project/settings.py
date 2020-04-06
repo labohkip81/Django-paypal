@@ -38,6 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ecommerce_app',
+
+    #django paypal integaration to the app.
+    'paypal.standard.ipn',
+    
 ]
 
 MIDDLEWARE = [
